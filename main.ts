@@ -23,8 +23,7 @@ namespace tempTest {
      * Initialize something
      */
     //% block="Initialize"
-    //% blockId="tempTest_intializee"
-    //% port.fieldEditor="gridpicker" port.fieldOptions.columns=2
+    //% blockId="tempTest_intialize"
     //% group="GroupA"
     //% weight=90
     export function intialize(): void {
@@ -36,7 +35,6 @@ namespace tempTest {
      */
     //% block="GetSomething"
     //% blockId="tempTest_getSomething"
-    //% port.fieldEditor="gridpicker" port.fieldOptions.columns=2
     //% group="GroupC"
     //% weight=89
     export function getSomething(): ButtonState {
