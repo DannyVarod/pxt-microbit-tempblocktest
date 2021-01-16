@@ -50,7 +50,7 @@ namespace tempTest {
     /**
      * Abstraction for led matrices
      */
-    export class MyClass {
+    class MyClass {
         x: number
 
         constructor(x: number) {
