@@ -6,42 +6,6 @@
 namespace tempTest {
 
     /**
-     * Button state
-     */
-    export enum ButtonState {
-        //% block=Released
-        Released = 0,
-        //% block=Pressed
-        Pressed = 1
-    }
-
-    function hiddenFunction(buttonState: ButtonState): Number {
-        return 2
-    }
-
-    /**
-     * Initialize something
-     */
-    //% block="Initialize"
-    //% blockId="tempTest_intialize"
-    //% group="GroupA"
-    //% weight=90
-    export function intialize(): void {
-        hiddenFunction(ButtonState.Pressed)
-    }
-
-    /**
-     * Get something
-     */
-    //% block="GetSomething"
-    //% blockId="tempTest_getSomething"
-    //% group="GroupC"
-    //% weight=89
-    export function getSomething(): ButtonState {
-        return ButtonState.Pressed
-    }
-
-    /**
      * Set x
      * @param x x [0,255]
     */
