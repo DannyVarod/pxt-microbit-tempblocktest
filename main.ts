@@ -23,15 +23,13 @@ namespace tempTest {
 
     /**
      * Initialize something
-     * @param buttonState button state
      */
     //% block="Initialize"
-    //% blockId="tempTest_intialize|button State %buttonState"
+    //% blockId="tempTest_intializee"
     //% port.fieldEditor="gridpicker" port.fieldOptions.columns=2
     //% group="GroupA"
     //% weight=90
-    export function intialize(buttonState: ButtonState): void {
-        hiddenFunction(buttonState)
+    export function intialize(): void {
         myClass = new MyClass(0)
     }
 
