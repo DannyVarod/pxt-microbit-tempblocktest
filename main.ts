@@ -18,7 +18,7 @@ namespace tempTest {
     }
 
     function hiddenFunction(buttonState: ButtonState): Number {
-        return buttonState.valueOf()
+        return 2
     }
 
     /**
@@ -45,7 +45,7 @@ namespace tempTest {
     //% group="GroupB"
     //% weight=87
     export function returnSomething(buttonState: ButtonState): string {
-        return buttonState.toString()
+        return "string"
     }
 
     /**
