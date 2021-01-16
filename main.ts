@@ -40,7 +40,7 @@ namespace tempTest {
      * @param buttonState button state
      */
     //% block="ReturnSomething"
-    //% blockId="returnSomething_intialize|button State %buttonState"
+    //% blockId="tempTest_returnSomething|button State %buttonState"
     //% port.fieldEditor="gridpicker" port.fieldOptions.columns=2
     //% group="GroupB"
     //% weight=87
@@ -52,7 +52,7 @@ namespace tempTest {
      * Get something
      */
     //% block="GetSomething"
-    //% blockId="getSomething_intialize"
+    //% blockId="tempTest_getSomething"
     //% port.fieldEditor="gridpicker" port.fieldOptions.columns=2
     //% group="GroupC"
     //% weight=89
@@ -84,7 +84,7 @@ namespace tempTest {
      * @param x x [0,255]
     */
     //% block="Set x|x %x"
-    //% blockId="microX_setX"
+    //% blockId="tempTest_setX"
     //% x.min=0 x.max=255
     //% x.fieldEditor="gridpicker" x.fieldOptions.columns=2
     //% inlineInputMode=inline
