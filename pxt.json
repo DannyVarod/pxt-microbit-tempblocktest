@@ -1,0 +1,14 @@
+{
+    "name": "MicroX",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "ws2812b": "github:Microsoft/pxt-ws2812b#v0.1.1",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ]
+}
