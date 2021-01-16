@@ -36,19 +36,6 @@ namespace tempTest {
     }
 
     /**
-     * Return something
-     * @param buttonState button state
-     */
-    //% block="ReturnSomething"
-    //% blockId="tempTest_returnSomething|button State %buttonState"
-    //% port.fieldEditor="gridpicker" port.fieldOptions.columns=2
-    //% group="GroupB"
-    //% weight=87
-    export function returnSomething(buttonState: ButtonState): string {
-        return "string"
-    }
-
-    /**
      * Get something
      */
     //% block="GetSomething"
