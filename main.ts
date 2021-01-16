@@ -5,8 +5,6 @@
 //% groups='["GroupA", "GroupB", "GroupC", "GroupD", "GroupE"]'
 namespace tempTest {
 
-    let myClass: MyClass = null
-
     /**
      * Button state
      */
@@ -30,7 +28,7 @@ namespace tempTest {
     //% group="GroupA"
     //% weight=90
     export function intialize(): void {
-        myClass = new MyClass(0)
+        hiddenFunction(ButtonState.Pressed)
     }
 
     /**
@@ -46,25 +44,6 @@ namespace tempTest {
     }
 
     /**
-     * Abstraction for led matrices
-     */
-    class MyClass {
-        x: number
-
-        constructor(x: number) {
-            this.x = x
-        }
-    
-        /**
-         * Set x
-         * @param x x [0,255]
-        */
-        public setX(x: number): void {
-            this.x = x
-        }
-    }
-
-    /**
      * Set x
      * @param x x [0,255]
     */
@@ -76,6 +55,5 @@ namespace tempTest {
     //% group="GroupD"
     //% weight=30
     export function setX(x: number): void {
-        myClass.setX(x)
     }
 }
